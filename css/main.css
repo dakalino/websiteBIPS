@@ -4,6 +4,10 @@
    Author's custom styles
    ========================================================================== */
 
+#superBike {
+  background-image: url(../superBike.jpg);
+  height: 600px;	
+}
 
 
 
