@@ -4,7 +4,7 @@
 	$hosting = "localhost";
 	$user = "cdprumeo_david";
 	$pass = "Shibata7564";
-	$db = "cdprumeo_kickstarter";
+	$db = "cdprumeo_bips";
 
 	//Connect to DB
 	$conn = mysql_connect($hosting, $user, $pass);

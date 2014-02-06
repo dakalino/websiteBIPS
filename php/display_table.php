@@ -39,7 +39,7 @@
 	
 	echo "<br>";
 
-	echo "<br><a href='main.php'>home</a>";
+	echo "<br><a href='index.html'>home</a>";
 
 	mysql_close($conn);
 ?>
