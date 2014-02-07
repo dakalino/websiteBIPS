@@ -12,20 +12,18 @@
 
 div.info {
 	right: 0;
-	margin-left: 11px;
-	float: right
+	margin-right: 5px;
+	float: left
 }
 
 a.details {
 	margin:50px;
 }
 
-
 span.subtitle {
 	color: white;
 	
 }
-
 
 
 
