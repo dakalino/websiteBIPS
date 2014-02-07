@@ -56,21 +56,15 @@
               </ul>
             </li>
           </ul>
-<<<<<<< HEAD
-          <form class="navbar-form navbar-right">
-            <div class="form-group">
-              <input type="text" placeholder="Email" class="form-control">
-=======
-          <form class="navbar-form navbar-right" action="php/signup.php" method="post">
-            <div class="form-group">
-              <input type="text"  name="email" placeholder="Email" class="form-control">
->>>>>>> 476fdd2ac72c37f0486a14885418a5e99632d908
-            </div>
+        <form class="navbar-form navbar-right">
+	        <div class="form-group">
+	        	<input type="text" placeholder="Email" class="form-control">
+	        </div>
             <div class="form-group">
               <input type="password" placeholder="Password" class="form-control">
             </div>
             <button type="submit" class="btn btn-success">Sign in</button>
-          </form>
+        </form>
         </div><!--/.navbar-collapse -->
       </div>
     </div>
@@ -80,12 +74,15 @@
       <div class="container">
         <h1>BIPS your Bike</h1>
         <p>More than 85% of all registered bikes in the United States are running on under-inflated tires. Shorter tire life, decreased gas mileage and increased risk of accidents are causes of under inflation. Ensure the perfect ride for you and your traveling partner with BIPS, a Tire Pressure Monitoring System for your motorcycle and bicycle.</p>
-        <p><a class="btn btn-primary btn-lg">Learn more!&raquo;</a></p>
-        <br><br>
-        <form id="signup" action="php/signup.php" method="post">
-        <input id="email" name="email" placeholder="email">
-        <input id="submit" class="button azure-button" type="submit" value="Get Notified">
-        </form>
+
+			<p class="navbar-form navbar-right">Get notified when BIPS is available</p>
+			<br>
+			<form class="navbar-form navbar-right" action="php/signup.php" method="post">
+				<div class="form-group">
+					<input type="text"  name="email" placeholder="Email" class="form-control">
+					<input type="submit" class="btn btn-primary btn-lg" value="Learn More!&raquo">
+				</div>
+			</form>
       </div>
     </div>
     <div id="social">    
