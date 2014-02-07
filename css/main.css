@@ -6,7 +6,7 @@
 
 #superBike {
   background-image: url(../img/superBike.jpg);
-  height: 600px;	
+  height: 650px;	
   right: 0;
 }
 
@@ -23,4 +23,25 @@ a.details {
 span.subtitle {
 	color: white;
 	
+}
+
+div.signup{
+	position:!important;
+	display:inline-block;
+	top: 60px;
+	height: 220px;
+	left: 570px;
+	width: 400px;
+	padding: 25px;
+	
+	text-align: center;
+	font-size: 25px;
+	color: #666;
+    background: white;
+	opacity: 0.75;
+    border: 1px solid rgba(255,255,255,.2);
+
+    -webkit-border-radius: 14px 14px 0px 0px;
+    -moz-border-radius: 14px 14px 0px 0px;
+    border-radius: 14px 14px 14px 14px;
 }
