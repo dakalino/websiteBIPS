@@ -10,11 +10,24 @@
   right: 0;
 }
 
-.info {
+.info1 {
 	text-align: center;
 	right: 0;
-	margin: auto;
-	float: left
+
+
+	float: left;
+}
+.info2 {
+	text-align: center;
+
+
+	float: none;
+}
+.info3 {
+	text-align: center;
+
+
+	float: right;
 }
 
 a.details {
