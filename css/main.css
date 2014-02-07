@@ -10,12 +10,21 @@
   right: 0;
 }
 
+div.info {
+	right: 0;
+	margin-left: 11px;
+	float: right
+}
+
+a.details {
+	margin:50px;
+}
 
 
-
-
-
-
+span.subtitle {
+	color: white;
+	
+}
 
 
 
