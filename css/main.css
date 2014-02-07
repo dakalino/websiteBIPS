@@ -11,8 +11,9 @@
 }
 
 .info {
+	text-align: center;
 	right: 0;
-	margin-right: 5px;
+	margin: auto;
 	float: left
 }
 
@@ -23,6 +24,21 @@ a.details {
 .subtitle {
 	color: white;
 	
+}
+
+.circle {
+    display: block;
+    height: 100px;
+    width: 100px;
+    line-height: 100px;
+
+    -moz-border-radius: 30px; /* or 50% */
+    border-radius: 30px; /* or 50% */
+
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 2em;
 }
 
 .signup{
